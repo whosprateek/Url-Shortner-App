@@ -18,7 +18,7 @@
 <h2>📦 Tech Stack</h2>
 <ul>
   <li><strong>Frontend:</strong> React, CSS</li>
-  <li><strong>Backend:</strong> Node.js, Express.js</li>
+  <li><strong>Backend:</strong> Node.js, Express.js, Nodemon (for development)</li>
   <li><strong>Database:</strong> MongoDB + Mongoose</li>
 </ul>
 
@@ -67,9 +67,9 @@
     <pre><code>cd backend && npm install
 cd ../frontend && npm install</code></pre>
   </li>
-  <li>Start backend server:
+  <li>Start backend server with nodemon:
     <pre><code>cd backend
-npm start</code></pre>
+nodemon server.js</code></pre>
   </li>
   <li>Start frontend:
     <pre><code>cd frontend
